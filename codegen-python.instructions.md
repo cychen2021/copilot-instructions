@@ -7,11 +7,11 @@
 - **Modern Python Features:** Use modern Python features up to 3.12.
 - **Doc Strings**: The doc strings should be in the format of Google style. Always leave a blank line after doc strings.
 - **Miscellaneous**
-    1. Use `is` for identity checks and `==` for equality checks.
-    2. Use f-strings for string formatting.
-    3. Use `with` statements for file operations.
-    4. Use list comprehensions where appropriate.
-    5. Use double quotes for strings.
-    6. Use `_ is None` and `_ is not None` for `None` checks.
-    7. Tables and columns in databases should use CamelCase, including those one-word names.
-    8. Don't test your code right after writing it. The testing will be done manually later.
+    - Use `is` for identity checks and `==` for equality checks.
+    - Use f-strings for string formatting.
+    - Use `with` statements for file operations.
+    - Use list comprehensions where appropriate.
+    - Use double quotes for strings.
+    - Use `_ is None` and `_ is not None` for `None` checks.
+    - Tables and columns in databases should use CamelCase, including those one-word names.
+    - Don't test your code right after writing it. The testing will be done manually later.
