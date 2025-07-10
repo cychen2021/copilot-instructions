@@ -17,13 +17,11 @@
     },
     "github.copilot.chat.commitMessageGeneration.instructions": [
         {
-            "file": "commit.instructions.md"
+            "file": "commit/commit-general.instructions.md"
         }
     ],
-    "github.copilot.chat.codeGeneration.instructions": [
-        {
-            "file": "codegen-python.instructions.md",
-            "language": "python"
-        }
-    ]
+    "chat.instructionsFilesLocations": {
+        ".github/instructions": true,
+        ".": true
+    }
 }
