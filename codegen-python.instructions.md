@@ -1,3 +1,8 @@
+---
+description: "Python development guidelines."
+applyTo: "**/*.py,**/pyproject.toml"
+---
+
 # Python development guidelines
 
 - **Modular Design:** Emphasize clear separation of concerns.
