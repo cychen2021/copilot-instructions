@@ -22,6 +22,6 @@
     ],
     "chat.instructionsFilesLocations": {
         ".github/instructions": true,
-        ".": true
+        "codegen": true
     }
 }
