@@ -7,4 +7,4 @@
 - Put important things to the first.
 - One line for minor changes.
 - One empty line between the headline and the body.
-- Avoid general words like "refactor" unless no other words are more suitable.
+- Avoid general words, including but not limited to "refactor", "enhance" and "improve", unless no other words are more suitable.
