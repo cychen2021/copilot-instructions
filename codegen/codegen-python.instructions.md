@@ -11,6 +11,7 @@ applyTo: "**/*.py,**/pyproject.toml"
 - **Preserve Comments:** Existing comments in code must be retained.
 - **Modern Python Features:** Use modern Python features up to 3.12.
 - **Doc Strings**: The doc strings should be in the format of Google style. Always leave a blank line after doc strings.
+- **Testing**: Write unit tests for important functions and classes. Use `pytest` as the testing framework.
 - **Miscellaneous**
     - Use `is` for identity checks and `==` for equality checks.
     - Use f-strings for string formatting.
