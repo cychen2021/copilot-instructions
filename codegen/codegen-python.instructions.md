@@ -7,7 +7,7 @@ applyTo: "**/*.py,**/pyproject.toml"
 
 - **Modular Design:** Emphasize clear separation of concerns.
 - **Strict Typing & Docstrings:** ALWAYS add type hints (including return types) and PEP 257 compliant docstrings to all functions and classes.
-- **Dependency Management:** Utilize `uv` and virtual environments. All code and scripts must be executed via `uv run`.
+- **Dependency Management:** Utilize `uv` and virtual environments. All code and scripts must be executed via `uv run <main_command> <subcommand>`. Otherwise, a `python -m <main_command_module> <subcommand>` is expected to produce a `no module named ...` error.
 - **Preserve Comments:** Existing comments in code must be retained.
 - **Modern Python Features:** Use modern Python features up to 3.12.
 - **Doc Strings**: The doc strings should be in the format of Google style. Always leave a blank line after doc strings.
