@@ -6,7 +6,7 @@ applyTo: "**/*.py,**/pyproject.toml"
 # Python development guidelines
 
 - **Strict Typing & Docstrings:** ALWAYS add type hints (including return types) and PEP 257 compliant docstrings to all functions and classes.
-- **Dependency Management:** Utilize `uv` and virtual environments. All code and scripts must be executed via `uv run <main_command> <subcommand>`. Otherwise, a `python -m <main_command_module> <subcommand>` is expected to produce a `no module named ...` error.
+- **Dependency Management:** Utilize `uv` and virtual environments. All code and scripts must be executed via `uv run <main_command> <subcommand>`. Otherwise, a `python -m <main_command_module> <subcommand>` is expected to produce a `no module named ...` error. Besides, `uv run python -m <main_command_module> <subcommand>` will likely cause problems too.
 - **Modern Python Features:** Use modern Python features up to 3.12.
 - **Doc Strings**: The doc strings should be in the format of Google style. Always leave a blank line after doc strings.
 - **Testing**: Write unit tests for important functions and classes. Use `pytest` as the testing framework.
