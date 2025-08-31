@@ -1,3 +1,3 @@
 # copilot-instructions
 
-Reusable general instructions for Copilot.
+Reusable instructions and prompts for Copilot.
