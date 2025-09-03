@@ -1,5 +1,6 @@
 # Tips about the commit messages
 
+- Always use English unless explicitly requested.
 - The headline (the first line of a commit message) should be concise and short, LESS THAN 10 WORDS. More contents should be splitted into bullet lists in the body.
 - The headline should start with a capitalized verb and end without a period.
 - Each bullet point should either be a complete sentence or follow the same grammatical structure as the headline.
