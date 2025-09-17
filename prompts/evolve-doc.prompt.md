@@ -12,7 +12,7 @@ You should complete the following tasks:
 1. Analyze the codebase of the project and compile a detailed document about the current architecture. Put the document at `dev_log/${input:filename}.md`.
 2. Update the contents of the outdated `AGENTS.md` accordingly.
 
-During the analysis, you should reference the source code and the previous documentation, including the `AGENTS.md` file and the old architecture documentation files in `dev_log/`. Note that the contents of these files may be outdated; always validate them against the current source code.
+During the analysis, you should reference the source code and the previous documentation, including the `README.md`, the `AGENTS.md` file, and the old architecture documentation files in `dev_log/`. Note that the contents of these files may be outdated; always validate them against the current source code.
 
 Tips:
 
