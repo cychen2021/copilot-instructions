@@ -20,6 +20,6 @@ What to include and what not to include:
 - Use Mermaid charts to illustrate:
     - The overall architecture of the project
     - The architecture of each major module
-    - The class diagrams of critical types (structs, enums, traits, etc.)
+    - The class diagrams of critical types (structs, enums, traits, classes, etc.)
     - The state diagrams of critical entities
     - The sequence diagrams of critical interactions between entities
