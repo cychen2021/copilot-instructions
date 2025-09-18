@@ -14,6 +14,12 @@ You should complete the following tasks:
 
 During the analysis, you should reference the source code and the previous documentation, including the `README.md`, the `AGENTS.md` file, and the old architecture documentation files in `dev_log/`. Note that the contents of these files may be outdated; always validate them against the current source code.
 
-Tips:
+What to include and what not to include:
 
-- Only include the most essential details in the architecture document. Avoid overwhelming the reader with too many details. Some old documentation files didn't do a good job at this.
+- Only include the most essential source code snippets in the document. Avoid including large chunks of code.
+- Use Mermaid charts to illustrate:
+    - The overall architecture of the project
+    - The architecture of each major module
+    - The class diagrams of critical types (structs, enums, traits, etc.)
+    - The state diagrams of critical entities
+    - The sequence diagrams of critical interactions between entities
