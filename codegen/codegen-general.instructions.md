@@ -20,4 +20,8 @@ applyTo: "**"
   - Besides, `uv run python -m <main_command_module> <subcommand>` will likely cause problems too. Instead, you should directly run `uv run <main_command_module> <subcommand>`. Similarly, use `uv run pytest` to run `pytest` unit tests. DON'T USE `python -m cmd` or `python -m src/cmd` to run the module!
 - **Don't reinvent the wheel:** Use third-party libraries if any suitable before implementing complex functionality from scratch.
 - **Maintain `.gitignore`:** Ensure unnecessary files are excluded from version control.
-- Always use English in code comments, unless specified otherwise.
+- **Language:** Always use English in code comments, unless specified otherwise.
+- **Seek for help:** When failing something repetitively, search the internet or any documentation to find solutions.
+  - Stack Overflow is often the most useful.
+  - You should be able to access the Microsoft docs via your tools if the problem is related to Microsoft things.
+  - Context7 can also be a good resource.
